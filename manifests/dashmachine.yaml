@@ -32,7 +32,7 @@ spec:
       serviceAccountName: dashmachine-server
       containers:
       - name: dashmachine-server
-        image: rmountjoy/dashmachine:latest
+        image: rmountjoy/dashmachine:v0.5-4
         ports:
         - name: http
           containerPort: 5000
